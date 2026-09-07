@@ -1,5 +1,5 @@
 FROM almalinux:9
-ENV couser="devops" \
+ENV course="devops" \
     duration="120hrs"
 ARG trainer="shivakumar"
 RUN echo "hi, course is: ${course}, duration is: ${duration}, trainer is: ${trainer}"
